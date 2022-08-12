@@ -24,292 +24,302 @@
 
 <body>
     <a class="up" href="#navbar">
-        <img src="images/angles-up-solid.svg" alt="up">
+        <img width="20" src="images/angles-up-solid.svg" alt="up">
     </a>
-    <header>
-        <nav id="navbar" class=" wrapper">
-            <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li class="none"><a href="#educationexperience">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li class="none"><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li class="none"><a href="#review">Reviews</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contacts">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div id="welcome">
+    <nav id="navbar"  class="wrapper">
+        <ul>
+            <li><a href="#aboutme">ABOUT ME</a></li>
+            <li class="none"><a href="#educationexperience">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li class="none"><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="none"><a href="#review">REVIEWS</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contacts">CONTACT</a></li>
+        </ul>
+    </nav>
+    <header id="welcome">
         <div class="welcome wrapper flexcontainer">
-            <!-- <div id="blur"><img src="./images/oguz-yagiz-kara-OhC9aDrGsHU-unsplash.jpg" alt="profile photo"></div> -->
             <div class="flexcontent">
-                <p class="im">This is me</p>
-                <h5 class="kamalesh">KAMALESH GOGI</h5>
+                <p class="im">Hey! I am</p>
+                <h1 class="kamalesh">KAMALESH GOGI</h1>
+                    <button class="btn-hover color"  onclick="window.location.href='#services';" >How can I help?</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--   About Me  -->
+        <div class="aboutme" id="aboutme">
+            <div class="wrapper flexcontainer">
+                <div><img src="./images/per-loov-4wOkqiXNP7M-unsplash.jpg" alt="kamalesh photo"></div>
                 <div>
-                    <button class="playvideo">Small animation</button>
+                    <h2>UI/UX Designer & Web Developer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe impedit dolorem expedita,
+                        fugiat sit nihil obcaecati pariatur tempora repudiandae dolores quae commodi quas, soluta quis
+                        reiciendis eaque incidunt veritatis.
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
-    <!--   About Me  -->
-    <div class="aboutme" id="aboutme">
-        <div class="wrapper flexcontainer">
-            <div><img src="./images/per-loov-4wOkqiXNP7M-unsplash.jpg" alt="kamalesh photo"></div>
+        </div>
+        <!-- Education and Experiences-->
+        <div class="wrapper">
+            <div id="educationexperience" class="flexcontainer">
+                <div class="flexcontainer education">
+                    <h2>MY EDUCATION</h2>
+                    <div>
+                        <h3>Master</h3>
+                        <h4><b>Ottawa University</b> | 2018 - 2020</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia deleniti quos
+                            deserunt nisi provident aut dolores asperiores neque. Inventore velit necessitatibus
+                            corporis
+                            exercitationem, doloremque possimus eius magnam aliquid culpa.</p>
+                    </div>
+                </div>
+                <div class="flexcontainer experience">
+                    <h2>MY EXPERIENCE</h2>
+                    <div>
+                        <h3>Web Designer</h3>
+                        <h4><b>Soft Company</b> | 2000 - 2050</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nulla cum unde, hic
+                            obcaecati saepe optio ad quam! Hic iste eveniet rerum neque ducimus excepturi nihil maxime
+                            ullam
+                            possimus nobis?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   my skills   -->
+        <div class="wrapper" id="skills">
+            <div class="flexcontainer">
+                <div class="flexcontainer">
+                    <h2> MY SKILLS</h2>
+                </div>
+                <div class="skill flexcontainer">
+                    <div class="skillcl">
+                        <div>
+                            <h3>HTML</h3>
+                            <h3>95%</h3>
+                        </div>
+                        <input aria-label="HTML" type="range" value="95">
+                        <div>
+                            <h3>CSS</h3>
+                            <h3>85%</h3>
+                        </div>
+                        <input aria-label="CSS" type="range" value="85">
+                        <div>
+                            <h3>PHP</h3>
+                            <h3>90%</h3>
+                        </div>
+                        <input aria-label="PHP" type="range" value="90">
+                    </div>
+                    <div class="skillcl ">
+                        <div>
+                            <h3>Javascript</h3>
+                            <h3>90%</h3>
+                        </div>
+                        <input aria-label="Javascript" type="range" value="90">
+                        <div>
+                            <h3>Angular JS</h3>
+                            <h3>95%</h3>
+                        </div>
+                        <input aria-label="Angular JS" type="range" value="95">
+                        <div>
+                            <h3>Wordpress</h3>
+                            <h3>85%</h3>
+                        </div>
+                        <input aria-label="Wordpress" type="range" value="85">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- My Services-->
+        <div class="flexcontainer" id="services">
             <div>
-                <h2>UI/UX Designer & Web Developer</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe impedit dolorem expedita,
-                    fugiat sit nihil obcaecati pariatur tempora repudiandae dolores quae commodi quas, soluta quis
-                    reiciendis eaque incidunt veritatis.
-                </p>
-                <!-- <div class="info flexcontainer">
-                    <div class="infocl">
-                        <p><b>Name: </b>Kamalesh</p>
-                        <p><b>Degree: </b> Master</p>
-                        <p><b>Phone: </b> +012 345 6789</p>
-                        <p><b>Address: </b>123 Street, Ottawa, CA</p>
-                    </div>
-                    <div class="infocl">
-                        <p><b>Borthday: </b>1 april 2000</p>
-                        <p><b>Experience: </b>2 Years</p>
-                        <p><b>Email: </b>Kamalesh@Algonquin.com</p>
-                        <p><b>Freelance: </b>Available</p> -->
-                <!-- </div> -->
 
+                <h2>MY SERVICES</h2>
             </div>
-        </div>
-    </div>
-    </div>
-    <!-- Education and Experiences-->
-    <div class="wrapper">
-        <div id="educationexperience" class="flexcontainer">
-            <div class="education">
-                <h2>My Education</h2>
-                <div>
-                    <h3>Master</h3>
-                    <h4><b>Ottawa University</b> | 2018 - 2020</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique mollitia deleniti quos
-                        deserunt nisi provident aut dolores asperiores neque. Inventore velit necessitatibus corporis
-                        exercitationem, doloremque possimus eius magnam aliquid culpa.</p>
+            <div class="flexcontainer one">
+                <div class="flexcontainer">
+                    <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                    <h3>Web Design</h3>
                 </div>
-            </div>
-            <div class="experience">
-                <h2>My Expericence</h2>
-                <div>
-                    <h3>Web Designer</h3>
-                    <h4><b>Soft Company</b> | 2000 - 2050</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus nulla cum unde, hic
-                        obcaecati saepe optio ad quam! Hic iste eveniet rerum neque ducimus excepturi nihil maxime ullam
-                        possimus nobis?</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--   my skills   -->
-    <div class="wrapper" id="skills">
-        <div class="flexcontainer">
-            <h2> My Skills</h2>
-            <div class="skill flexcontainer">
-                <div class="skillcl">
-                    <div>
-                        <h4>HTML</h4>
-                        <h4>95%</h4>
-                    </div>
-                    <input type="range" value="95">
-                    <div>
-                        <h4>CSS</h4>
-                        <h4>85%</h4>
-                    </div>
-                    <input type="range" value="85">
-                    <div>
-                        <h4>PHP</h4>
-                        <h4>90%</h4>
-                    </div>
-                    <input type="range" value="90">
-                </div>
-                <div class="skillcl ">
-                    <div>
-                        <h4>Javascript</h4>
-                        <h4>90%</h4>
-                    </div>
-                    <input type="range" value="90">
-                    <div>
-                        <h4>Angular JS</h4>
-                        <h4>95%</h4>
-                    </div>
-                    <input type="range" value="95">
-                    <div>
-                        <h4>Wordpress</h4>
-                        <h4>85%</h4>
-                    </div>
-                    <input type="range" value="85">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- My Services-->
-    <div class="flexcontainer" id="services">
-        <div>
-            <h2>My Services</h2>
-        </div>
-        <div class="flexcontainer 1">
-            <div class="flexcontainer">
-                <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
-                <h3>Web Design</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo praesentium voluptates deserunt
-                repellat ad nam odit fugit unde, recusandae cumque autem assumenda debitis vero expedita. Pariatur, quo!
-                Nulla, quos ex.</p>
-            <a>Read more</a>
-        </div>
-        <div class="flexcontainer">
-            <div class="flexcontainer 1"><i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
-                <h3>Web Development</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
-                officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab voluptates,
-                quas asperiores cum!</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="flexcontainer">
-            <div class="flexcontainer one"> <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
-                <h3>Apps Design</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
-                officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab voluptates,
-                quas asperiores cum!</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="flexcontainer one">
-            <div class="flexcontainer"><i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
-                <h3>SEO</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
-                officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab voluptates,
-                quas asperiores cum!</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="flexcontainer">
-            <div class="flexcontainer one"><i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
-                <h3>Content Creating</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
-                officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab voluptates,
-                quas asperiores cum!</p>
-            <a href="#">Read More</a>
-        </div>
-        <div class="flexcontainer">
-            <div class="flexcontainer one"><i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
-                <h3>Content Creating</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
-                officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab voluptates,
-                quas asperiores cum!</p>
-            <a href="#">Read More</a>
-        </div>
-    </div>
-    <!-- portfolio-->
-    <div id="portfolio" class="wrapper flexcontainer">
-        <h2>MY PORTFOLIO</h2>
-
-        <div class="gallery flexcontainer">
-            <div><img src="./images/portfolio-1.jpg" alt="portfolio-1"></div>
-            <div><img src="./images/portfolio-2.jpg" alt="portfolio-2"></div>
-            <div><img src="./images/portfolio-3.jpg" alt="portfolio-3"></div>
-            <div><img src="./images/portfolio-4.jpg" alt="portfolio-4"></div>
-            <div><img src="./images/portfolio-5.jpg" alt="portfolio-5"></div>
-            <div><img src="./images/portfolio-6.jpg" alt="portfolio-6"></div>
-        </div>
-    </div>
-    <div id="review" class="wrapper flexcontainer">
-        <div>
-            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam obcaecati doloremque et ea,
-                pariatur tempore, deserunt quibusdam, consequatur quo nihil corporis quos neque incidunt sequi officia
-                vitae fugiat! Quidem?</p>
-            <div><img src="./images/testimonial-1.jpg" alt="testimonial"></div>
-            <h3>Client Name</h3>
-            <p>Profession</p>
-
-        </div>
-        <div>
-            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam obcaecati doloremque et ea,
-                pariatur tempore, deserunt quibusdam, consequatur quo nihil corporis quos neque incidunt sequi officia
-                vitae fugiat! Quidem?</p>
-            <div><img src="./images/testimonial-2.jpg" alt="testimonial"></div>
-            <h3>Client Name</h3>
-            <p>Profession</p>
-
-        </div>
-        <div>
-            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam obcaecati doloremque et ea,
-                pariatur tempore, deserunt quibusdam, consequatur quo nihil corporis quos neque incidunt sequi officia
-                vitae fugiat! Quidem?</p>
-            <div><img src="./images/testimonial-3.jpg" alt="testimonial"></div>
-            <h3>Client Name</h3>
-            <p>Profession</p>
-
-        </div>
-    </div>
-    <!-- latest blogs-->
-    <div id="blog" class="wrapper">
-        <div class="flexcontainer">
-            <h2>My LATEST BLOGS</h2>
-        </div>
-        <div class="blogs flexcontainer">
-            <div class="flexcontainer">
-                <div><img src="./images/blog-1.jpg" alt="blog1"></div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam debitis illo officiis quisquam</p>
-                <div><a href="#">Read More</a></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo praesentium voluptates deserunt
+                    repellat ad nam odit fugit unde, recusandae cumque autem assumenda debitis vero expedita. Pariatur,
+                    quo!
+                    Nulla, quos ex.</p>
+                <a href="#">Read More</a>
             </div>
             <div class="flexcontainer">
-                <div><img src="./images/blog-2.jpg" alt="blog2"></div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam debitis illo officiis quisquam</p>
-                <div><a href="#">Read More</a></div>
+                <div class="flexcontainer one"><i
+                        class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
+                    officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab
+                    voluptates,
+                    quas asperiores cum!</p>
+                <a href="#">Read More</a>
             </div>
             <div class="flexcontainer">
-                <div><img src="./images/blog-3.jpg" alt="blog3"></div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam debitis illo officiis quisquam</p>
-                <div><a href="#">Read More</a></div>
+                <div class="flexcontainer one"> <i
+                        class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                    <h3>Apps Design</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
+                    officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab
+                    voluptates,
+                    quas asperiores cum!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="flexcontainer one">
+                <div class="flexcontainer"><i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                    <h3>SEO</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
+                    officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab
+                    voluptates,
+                    quas asperiores cum!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="flexcontainer">
+                <div class="flexcontainer one"><i
+                        class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                    <h3>Content Creating</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
+                    officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab
+                    voluptates,
+                    quas asperiores cum!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="flexcontainer">
+                <div class="flexcontainer one"><i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                    <h3>Content Creating</h3>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, repellat adipisci similique aut, alias
+                    officia beatae non ipsa officiis consequuntur recusandae! Et nam dignissimos voluptatibus ab
+                    voluptates,
+                    quas asperiores cum!</p>
+                <a href="#">Read More</a>
             </div>
         </div>
-    </div>
-    <!-- contacts-->
-    <div id="contacts" class="wrapper">
-        <div class="flexcontainer">
-            <h2>CONTACT ME</h2>
+        <!-- portfolio-->
+        <div id="portfolio" class="wrapper flexcontainer">
+            <h2>MY PORTFOLIO</h2>
+
+            <div class="gallery flexcontainer">
+                <div><img src="./images/portfolio-1.jpg" alt="portfolio-1"></div>
+                <div><img src="./images/portfolio-2.jpg" alt="portfolio-2"></div>
+                <div><img src="./images/portfolio-3.jpg" alt="portfolio-3"></div>
+                <div><img src="./images/portfolio-4.jpg" alt="portfolio-4"></div>
+                <div><img src="./images/portfolio-5.jpg" alt="portfolio-5"></div>
+                <div><img src="./images/portfolio-6.jpg" alt="portfolio-6"></div>
+            </div>
         </div>
-        <div class="flexcontainer">
-            <form>
-                <div>
-                    <div><label for="fullname">Full Name</label></div>
-                    <div><input type="text" id="fullname" name="fullname"></div>
-                    <div><label for="email">Email</label></div>
-                    <div><input type="email" id="email"></div>
-                    <div><label for="message">Message</label></div>
-                    <div><textarea name="message" id="message" cols="30" rows="10"></textarea></div>
-                    <div class="submit"><button type="submit">Send</button></div>
+        <div id="review" class="wrapper flexcontainer">
+            <div>
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam obcaecati doloremque et
+                    ea,
+                    pariatur tempore, deserunt quibusdam, consequatur quo nihil corporis quos neque incidunt sequi
+                    officia
+                    vitae fugiat! Quidem?</p>
+                <div><img src="./images/testimonial-1.jpg" alt="testimonial"></div>
+                <h3>Client Name</h3>
+                <p>Profession</p>
+
+            </div>
+            <div>
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam obcaecati doloremque et
+                    ea,
+                    pariatur tempore, deserunt quibusdam, consequatur quo nihil corporis quos neque incidunt sequi
+                    officia
+                    vitae fugiat! Quidem?</p>
+                <div><img src="./images/testimonial-2.jpg" alt="testimonial"></div>
+                <h3>Client Name</h3>
+                <p>Profession</p>
+
+            </div>
+            <div>
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam obcaecati doloremque et
+                    ea,
+                    pariatur tempore, deserunt quibusdam, consequatur quo nihil corporis quos neque incidunt sequi
+                    officia
+                    vitae fugiat! Quidem?</p>
+                <div><img src="./images/testimonial-3.jpg" alt="testimonial"></div>
+                <h3>Client Name</h3>
+                <p>Profession</p>
+
+            </div>
+        </div>
+        <!-- latest blogs-->
+        <div id="blog" class="wrapper">
+            <div class="flexcontainer">
+                <h2>MY LATEST BLOGS</h2>
+            </div>
+            <div class="blogs flexcontainer">
+                <div class="flexcontainer">
+                    <div><img src="./images/blog-1.jpg" alt="blog1"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam debitis illo officiis quisquam
+                    </p>
+                    <div><a href="#">Read More</a></div>
                 </div>
-            </form>
+                <div class="flexcontainer">
+                    <div><img src="./images/blog-2.jpg" alt="blog2"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam debitis illo officiis quisquam
+                    </p>
+                    <div><a href="#">Read More</a></div>
+                </div>
+                <div class="flexcontainer">
+                    <div><img src="./images/blog-3.jpg" alt="blog3"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam debitis illo officiis quisquam
+                    </p>
+                    <div><a href="#">Read More</a></div>
+                </div>
+            </div>
         </div>
-    </div>
+        <!-- contacts-->
+        <div id="contacts" class="wrapper">
+            <div class="flexcontainer">
+                <h2>CONTACT ME</h2>
+            </div>
+            <div class="flexcontainer">
+                <form>
+                    <div>
+                        <div><label for="fullname">Full Name</label></div>
+                        <div><input type="text" id="fullname" name="fullname"></div>
+                        <div><label for="email">Email</label></div>
+                        <div><input type="email" id="email"></div>
+                        <div><label for="message">Message</label></div>
+                        <div><textarea name="message" id="message" cols="30" rows="10"></textarea></div>
+                        <div class="submit"><button type="submit">Send</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- <div id="welcome">
+ 
+    </div> -->
+
     <!-- footer  -->
     <footer class="flexcontainer">
         <div class="sociallinks">
-            <a class="btn btn-light btn-social mr-2" href="https://linktr.ee/kamaleshgogi"><i
+            <a class="btn btn-light btn-social mr-2" aria-label="Twitter" href="https://twitter.com/gogikamalesh"><i
                     class="fab fa-twitter"></i></a>
-            <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/profile.php?id=100008008849065"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-light btn-social mr-2" href="https://linktr.ee/kamaleshgogi"><i
-                    class="fab fa-linkedin-in"></i></a>
-            <a class="btn btn-light btn-social" href="https://www.instagram.com/kamaleshgogi/"><i
+            <a class="btn btn-light btn-social mr-2" aria-label="Facebook"
+                href="https://www.facebook.com/profile.php?id=100008008849065"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-light btn-social mr-2" aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/kamalesh-g-b31822105/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-light btn-social" aria-label="Instagram" href="https://www.instagram.com/kamaleshgogi/"><i
                     class="fab fa-instagram"></i></a>
         </div>
         <div class="extra">
-            <nav>
+            <nav aria-label="footernav">
                 <ul>
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Terms</a></li>
