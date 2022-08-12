@@ -197,10 +197,6 @@ button:hover {
   padding: 20px;
 }
 
-input {
-  pointer-events: none;
-}
-
 .skillcl > div {
   display: flex;
   flex-direction: row;
